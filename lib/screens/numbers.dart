@@ -4,6 +4,7 @@ import 'package:toku_app/models/item.dart';
 
 // ignore: must_be_immutable
 class NumbersScreen extends StatelessWidget {
+  // ignore: non_constant_identifier_names
   List<Item> Num = [
     Item(
         Num_image: 'assets/images/numbers/number_one.png',
@@ -75,7 +76,7 @@ class NumbersScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: const Color(0xff463229),
           title: const Text(
-            'Family Member',
+            'Numbers',
             style: TextStyle(color: Colors.white),
           ),
         ),
